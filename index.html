@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Iconos de FontAwesome para el icono de Windows -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-600 p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <!-- Logo o nombre del sitio -->
+      <a href="index.html" class="text-white text-lg font-bold">Calendar App</a>
+
+      <!-- Menú de navegación -->
+      <ul class="flex space-x-4">
+        <li><a href="index.html" class="text-white hover:text-gray-200">Inicio</a></li>
+        <li><a href="descargar.html" class="text-white hover:text-gray-200">Descargar</a></li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Sección Principal (Hero Section) -->
+  <section class="main bg-blue-50 py-20">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-bold text-blue-900 mb-4">Organiza tu espacio con Calendar App</h1>
+      <p class="text-lg text-gray-700 mb-8">Una aplicación simple para gestionar un espacio</p>
+      <!-- Imagen más pequeña -->
+      <img src="assets/appHome.jpg" alt="Captura de la aplicación" class="mx-auto rounded-lg shadow-lg mb-8 w-1/2 md:w-1/2">
+      <a href="descargar.html" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">Descargar Ahora</a>
+    </div>
+  </section>
+
+  <!-- Sección de Descargas -->
+  <section id="descargar" class="py-20 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-900 mb-8">Descargar Calendar App</h2>
+      <div class="bg-blue-50 p-6 rounded-lg shadow-md inline-block">
+        <h3 class="text-xl font-bold text-blue-900 mb-4">Windows</h3>
+        <i class="fab fa-windows text-4xl text-blue-600 mb-4"></i> <!-- Icono de Windows -->
+        <p class="text-gray-700 mb-4">Descarga la versión para Windows.</p>
+        <a href="descargar.html" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">Descargar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección del Manual de Usuario -->
+  <section id="manual" class="py-20 bg-blue-50">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-900 mb-8">Manual de Usuario</h2>
+      <div class="bg-white p-6 rounded-lg shadow-md inline-block text-left max-w-2xl mx-auto">
+        <p class="text-gray-700 mb-4">Aquí encontrarás una guía detallada sobre cómo usar Calendar App:</p>
+        <ul class="list-disc list-inside text-gray-700">
+          <li class="mb-2">Cómo crear un trimestre, grupo e instructor.</li>
+          <li class="mb-2">Cómo editar un trimestre, grupo o instructor.</li>
+          <li class="mb-2">Cómo descargar el horario de determinado trimestre.</li>
+        </ul>
+        <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300 mt-4 inline-block">Descargar Manual</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección del Tutorial -->
+  <section id="tutorial" class="py-20 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-900 mb-8">Tutorial</h2>
+      <div class="bg-blue-50 p-6 rounded-lg shadow-md inline-block text-left max-w-2xl mx-auto">
+        <p class="text-gray-700 mb-4">Aprende a usar Calendar App con nuestro tutorial paso a paso:</p>
+        <ol class="list-decimal list-inside text-gray-700">
+          <li class="mb-2">Descargar e instalar la aplicación.</li>
+          <li class="mb-2">Explora las funciones principales.</li>
+          <li class="mb-2">Descargar primer trimestre ordenado.</li>
+        </ol>
+        <!-- Enlace directo al video de YouTube -->
+        <a href="https://www.youtube.com/watch?v=TU_ID_DE_VIDEO" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300 mt-4 inline-block">Ver Tutorial</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>Calendar App - Simplificando la gestión de espacios.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
